@@ -1,18 +1,24 @@
-# Dashboard de Temperaturas Simplificado
+# Análise de Temperaturas com Python
 
-Este projeto cria um dashboard simples para visualizar a média geral de temperatura a partir de um arquivo CSV, utilizando Python, SQLAlchemy e Streamlit.
+Este projeto analisa dados de temperatura a partir de um arquivo CSV e gera um dashboard usando Streamlit.
+
+## Arquivos no Repositório
+
+* `iot_temperature.csv`: Arquivo CSV com os dados de temperatura.
+* `dashboard.py`: Código Python para gerar o dashboard Streamlit.
+* `README.md`: Este arquivo de documentação.
 
 ## Configuração
 
-1.  Crie um arquivo CSV chamado `iot_temperature.csv` com dados de temperatura (um valor por linha).
-2.  Execute o script `dashboard.py` para visualizar o dashboard Streamlit.
-3.  Instale as dependencias com o comando `pip install pandas streamlit sqlalchemy plotly`
+1.  Python e Streamlit instalados.
+2.  `pip install pandas streamlit sqlalchemy plotly`
+3.  `streamlit run dashboard.py`
 
 ## Visualização
 
-* O dashboard exibe a média geral de temperatura em um gráfico de barras.
+![Gráfico de Barras](grafico_barras.png)
 
-## Como Executar Localmente
+## Observações
 
-1. Certifique-se de ter o Python e o Streamlit instalados.
-2. Execute o comando `streamlit run dashboard.py` no terminal.
+Dashboard executado localmente.
+
