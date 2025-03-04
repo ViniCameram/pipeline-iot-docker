@@ -16,7 +16,7 @@ Este projeto analisa dados de temperatura a partir de um arquivo CSV e gera um d
 
 ## Visualização
 
-![Gráfico de Barras](grafico_barras.png)
+![Gráfico de Barras](grafico_barras.jfif)
 
 ## Observações
 
